@@ -66,6 +66,11 @@
     height: 18px;
     margin-bottom: 50px;
   }
+  .banner-right-img{
+    position: absolute;
+    top: 27px;
+    right: 490px;
+  }
   .banner-description{
     width: 679px;
     height: 282px;
@@ -99,7 +104,7 @@
       color: #035751;
       line-height: 26px;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 33px;
       margin-bottom: 20px;
     }
     a{
@@ -117,17 +122,41 @@
       text-align: center;
       text-decoration: none;
     }
+    .banner-limit{
+      position: absolute;
+      bottom: 52px;
+      left: 50px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .banner-money-1{
+      position:absolute;
+      bottom:47px;
+      left: 140px;
+      font-size: 24px;
+      color: #de7d2e;
+    }
+    .banner-money-2{
+      position: absolute;
+      bottom: 52px;
+      left: 210px;
+      font-size: 15px;
+      color: #999;
+    }
   }
   .banner-info{
     margin-top: 20px;
-    font-size: 15px;
-    color: #fff;
     text-align: center;
     .banner-info-item{
       margin-right: 60px;
+      font-size: 15px;
+      color: #fff;
     }
     &:last-child{
       margin-right: 0;
+    }
+    .yellow{
+      color: #fefdd0;
     }
   }
 }
@@ -157,14 +186,16 @@
   }
 .main-container{
   .sketch{
-    display: none;
+    display: block;
     .title{
       margin-bottom: 19px; 
       font-size: 24px;
-      font-weight: 400;  
+      line-height: 24px;
+      font-weight: 500;  
     }
     .title-p{
       font-size: 14px;
+      line-height: 14px;
       color: #999;
     }
     .container{
@@ -223,6 +254,9 @@
         height: 80px;
         justify-content: center;
         align-items: center;
+        &:hover{
+          background: #f1f1f1;
+        }
       }
       .module-three-right{
         float: right;
@@ -247,6 +281,9 @@
       padding-top: 70px;
       padding-bottom: 70px;
       text-align: center;
+      .module-four-content{
+        margin-top: 50px;
+      }
     }
     .module-five{
       padding-top: 70px;
@@ -256,6 +293,7 @@
       .module-five-content{
         display: flex;
         justify-content: space-around;
+        margin-top: 50px;
       }
       .module-five-item{
         padding-top: 119px;
@@ -282,6 +320,7 @@
       padding-top: 70px;
       padding-bottom: 70px;
       text-align: center;
+      background: #f9f9f9;
       .module-seven-content{
         display: flex;
         justify-content: center;
@@ -297,7 +336,8 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 1920px;  
+        width: 1920px;
+        margin-top: 70px;  
       }
     }
     .module-nine{
@@ -330,6 +370,7 @@
       font-weight: bold;
       margin-bottom: 45px;
       text-align: center;
+      background: url(./../img/bt.png) center center no-repeat;
     }
     dl{
       width: 605px;
@@ -510,7 +551,7 @@
     }
   } 
   .user{
-    display: block;
+    display: none;
     h2{
       margin-bottom: 20px;
       text-align: center;
@@ -710,5 +751,15 @@
       background: #22a59b;
       color: #fff;
     }
+  }
+}
+.page-footer{
+  height: 70px;
+  background: url(./../img/footer.png);
+  .footer-p{
+    line-height: 70px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
   }
 }
