@@ -1,0 +1,116 @@
+.page-header {
+  display: flex;
+  width: 1000px;
+  height: 69px;
+  margin: 0 auto;
+}
+.page-header .header-logo {
+  padding-top: 17px;
+}
+.page-header .header-nav {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 40px;
+}
+.page-header .header-nav .nav-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  line-height: 69px;
+}
+.page-header .header-nav .nav-item:hover {
+  color: #35b558;
+}
+.page-header .header-nav .nav-item:hover.nav-item:after {
+  transform: rotate(225deg);
+  transition: all 0.4s ease-in-out;
+}
+.page-header .header-nav .nav-item:after {
+  content: '';
+  display: inline-block;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  height: 7px;
+  width: 7px;
+  transform: rotate(45deg);
+  transition: all .2s;
+  position: relative;
+  top: -3px;
+  left: 4px;
+}
+.page-header .header-nav .nav-item:first-child:after {
+  display: none;
+}
+.page-header .header-nav .nav-item:last-child:after {
+  display: none;
+}
+.page-header .header-form {
+  display: flex;
+  height: 51px;
+  padding-top: 20px;
+  border: none;
+}
+.page-header .header-form .header-input {
+  height: 30px;
+  border: 1px #ccc solid;
+  border-right: none;
+}
+.page-header .header-form .header-button {
+  width: 42px;
+  height: 34px;
+  border: 1px #ccc solid;
+  background: #fff;
+}
+.page-header .header-other-image {
+  display: flex;
+  width: 81px;
+  height: 31px;
+  margin-top: 20px;
+  margin-left: 38px;
+}
+.page-header .header-other-image .header-image-left {
+  width: 21px;
+  height: 23px;
+  margin-top: 5px;
+  margin-right: 28px;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.banner{
+  height: 390px;
+  padding-top: 54px;
+  text-align: center;
+  background: url(./../img/1bg.png);
+  .banner-title{
+    font-size: 20px;
+    color: #fff;
+  }
+  .banner-block{
+    display: inline-block;
+    width: 70px;
+    height: 3px;
+    margin-top:17px;
+    margin-bottom: 18px;
+    background: #576f8a;
+  }
+  .banner-text{
+    margin-bottom: 71px;
+    font-size: 13px;
+    color: #adcaec;
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    .banner-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      background: #fff;
+    }
+  }
+}
