@@ -622,3 +622,39 @@ h3{
 
   }
 }
+.page-footer{
+  padding-top: 20px;
+  padding-bottom: 22px;
+  text-align:center;
+  .footer-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    .footer-item{
+      position: relative;
+      padding-right: 43px;
+      padding-bottom: 17px;
+      color: #999999;
+    }
+    .footer-item:after{
+      content: '';
+      display: inline-block;
+      width: 1px;
+      height: 16px;
+      background: #a0aeb9;
+      position: absolute;
+      top: 1px;
+      right: 20px;
+    }
+    .footer-item:last-child:after{
+      display: none;
+    }
+  }
+  .footer-info{
+    line-height: 39px;
+    font-size: 12px;
+    color: #999;
+  } 
+}
