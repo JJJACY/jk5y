@@ -54,6 +54,7 @@
   height: 30px;
   border: 1px #ccc solid;
   border-right: none;
+  padding-left: 10px;
 }
 .page-header .header-form .header-button {
   width: 42px;
@@ -99,7 +100,7 @@
 .banner .banner-text {
   margin-bottom: 71px;
   font-size: 13px;
-  color: #adcaec;
+  color: #c1e0ff;
 }
 .banner ul {
   display: flex;
@@ -142,13 +143,13 @@
   text-align: center;
 }
 .member-section .member-content .member-item-top {
+  background: url(../img/1itt1.png);
   padding-top: 30px;
   padding-bottom: 25px;
-  background: #c121ff;
   color: #fff;
 }
 .member-section .member-content .yellow {
-  background: #f65f0d;
+  background: url(../img/1itt2.png);
 }
 .member-section .member-content .blue {
   background: #3a67e6;
@@ -164,13 +165,13 @@
   background: #f08e58;
 }
 .member-section .member-content .blue1 {
-  background: #8aa3eb;
+  background: #568fff;
 }
 .member-section .member-content .member-item-title-p {
   width: 72px;
   height: 39px;
   margin: 0 auto;
-  border-bottom: 1px solid #701a94;
+  border-bottom: 1px solid #2f70fb;
   line-height: 39px;
   font-size: 18px;
   color: #fff;
@@ -179,8 +180,15 @@
   border-bottom: none;
 }
 .member-section .member-content .member-item-top-text {
+  color: #e9c4ff;
   margin-top: 25px;
   font-size: 12px;
+}
+.member-section .member-content .midtext {
+  color: #fff1e8;
+}
+.member-section .member-content .righttext {
+  color: #d4e3ff;
 }
 .member-section .member-content .member-item-mid {
   padding-top: 49px;
@@ -192,9 +200,11 @@
 }
 .member-section .member-content .member-number {
   font-size: 34px;
+  color: #333;
 }
 .member-section .member-content .member-month {
   font-size: 14px;
+  color: #999;
 }
 .member-section .member-content .member-money {
   font-size: 14px;
@@ -203,14 +213,14 @@
 .member-section .member-content .member-discount {
   margin-top: 8px;
   font-size: 12px;
-  color: #ff1500;
+  color: #d23322;
 }
 .member-section .member-content .member-p {
   height: 29px;
   font-size: 12px;
   line-height: 29px;
   text-align: center;
-  background: #5f5b62;
+  background: #808080;
   color: #fff;
 }
 .member-section .member-content ul li p {
@@ -218,6 +228,7 @@
   padding-left: 47px;
   line-height: 40px;
   text-align: left;
+  color: #333333;
 }
 .member-section .member-content ul li {
   height: 40px;
@@ -243,8 +254,9 @@
   width: 118px;
   height: 40px;
   margin-right: 14px;
+  text-align: center;
   line-height: 40px;
-  background: #b840f5;
+  background: #ad49e0;
   color: #fff;
   font-size: 15px;
 }
@@ -252,9 +264,9 @@
   width: 118px;
   height: 40px;
   line-height: 40px;
-  border: 1px solid #b840f5;
+  border: 1px solid #ad49e0;
   font-size: 15px;
-  color: #b840f5;
+  color: #ad49e0;
 }
 .member-section .member-content .member-details {
   height: 70px;
@@ -266,7 +278,7 @@
   display: inline-block;
   width: 250px;
   height: 40px;
-  background: #f37e2e;
+  background: #ff8530;
   line-height: 40px;
   color: #fff;
 }
@@ -284,12 +296,13 @@
 }
 .member-section .member-content .apply-link {
   background: #fff;
-  color: #3aa1ff;
-  border: 1px solid #3aa1ff;
+  color: #50abff;
+  border: 1px solid #50abff;
 }
 h3 {
   font-size: 18px;
   font-weight: 400;
+  color: #333;
 }
 .container {
   width: 940px;
@@ -305,7 +318,7 @@ h3 {
   margin-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #999;
+  color: #333;
 }
 .question-section {
   padding-bottom: 70px;
@@ -337,6 +350,7 @@ h3 {
 .question-section .question-content .question {
   margin-bottom: 19px;
   font-size: 13px;
+  color: #333;
 }
 .question-section .question-content .answer {
   padding-bottom: 20px;
@@ -364,7 +378,7 @@ h3 {
   position: relative;
   padding-right: 43px;
   padding-bottom: 17px;
-  color: #999999;
+  color: #666;
 }
 .page-footer .footer-link .footer-item:after {
   content: '';
@@ -378,6 +392,9 @@ h3 {
 }
 .page-footer .footer-link .footer-item:last-child:after {
   display: none;
+}
+.page-footer .footer-link .footer-item a:hover {
+  color: #58b558;
 }
 .page-footer .footer-info {
   line-height: 39px;

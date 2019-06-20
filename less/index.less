@@ -54,6 +54,7 @@
   height: 30px;
   border: 1px #ccc solid;
   border-right: none;
+  padding-left:10px;
 }
 .page-header .header-form .header-button {
   width: 42px;
@@ -403,12 +404,14 @@ h3{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 20px;
-    img{
+    a{
+      height: 150px;
       margin-bottom: 10px;
     }
   }
 }
 .how-section{
+  position: relative;
   padding-top: 23px;
   padding-bottom: 10px;
   background: #f4f4f4;
@@ -452,6 +455,11 @@ h3{
       font-size:12px;
 
     }
+  }
+  .how-dot{
+    position: absolute;
+    top: 110px;
+    left: 590px;
   }
 }
 .study-section{
@@ -660,6 +668,9 @@ h3{
     }
     .footer-item:last-child:after{
       display: none;
+    }
+    .footer-item a:hover{
+      color: #58b558;
     }
   }
   .footer-info{
