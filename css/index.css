@@ -440,11 +440,13 @@ h3 {
 }
 .study-section {
   position: relative;
+  height: 520px;
   padding-top: 22px;
   padding-bottom: 10px;
   background: #f4f4f4;
 }
 .study-section .study-content {
+  position: relative;
   margin-top: 20px;
 }
 .study-section .study-content .study-content-item {
@@ -467,9 +469,11 @@ h3 {
   font-size: 12px;
 }
 .study-section .study-img {
-  position: absolute;
-  top: 60px;
-  right: 423px;
+  position: relative;
+  top: -450px;
+  left: 630px;
+  width: 370px;
+  height: 450px;
 }
 .coach-section {
   padding-top: 22px;
@@ -604,9 +608,15 @@ h3 {
   transform: rotate(45deg);
 }
 .page-footer {
-  padding-top: 20px;
+  position: relative;
+  padding-top: 50px;
   padding-bottom: 22px;
   text-align: center;
+}
+.page-footer .tell {
+  position: absolute;
+  top: -25px;
+  right: 790px;
 }
 .page-footer .footer-link {
   display: flex;

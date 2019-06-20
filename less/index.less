@@ -456,10 +456,12 @@ h3{
 }
 .study-section{
   position: relative;
+  height: 520px;
   padding-top: 22px;
   padding-bottom: 10px;
   background: #f4f4f4;
   .study-content{
+    position: relative;
     margin-top: 20px;
     .study-content-item{
       width: 630px;
@@ -482,9 +484,11 @@ h3{
     }
   }
   .study-img{
-    position: absolute;
-    top: 60px;
-    right: 423px;
+    position: relative;
+    top: -450px;
+    left: 630px;
+    width: 370px;
+    height: 450px;
   }
 }
 .coach-section{
@@ -623,9 +627,15 @@ h3{
   }
 }
 .page-footer{
-  padding-top: 20px;
+  position: relative;
+  padding-top: 50px;
   padding-bottom: 22px;
   text-align:center;
+  .tell{
+    position: absolute;
+    top: -25px;
+    right: 790px;
+  }
   .footer-link{
     display: flex;
     justify-content: center;
